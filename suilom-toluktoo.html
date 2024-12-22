@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сүйлөм толуктоо</title>
+    <link rel="stylesheet" href="analogiua.css">
+</head>
+<body>
+    <header>
+        <h1>Сүйлөм толуктоо</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <a href="index.html" class="logo-link">
+                <img src="img/2099190-removebg-preview.png" alt="Logo" class="logo-image">
+            </a>
+        </ul>
+    </nav>
+
+    <p class="intro-text">"Сүйлөмдөрдү толуктоо" бөлүмү</p>
+
+    <p class="step-text">Айтылган ойдун ар кайсы бөлүктөрүнүн ортосундагы логикалык байланыштарды түшүнүү жөндөмүңүзгө, сөз байлыгыңызга баа<mark> берет.</mark></p>
+    
+    <p class="step-text">Тесттин бул бөлүмү бир же эки сүйлөмдөн турган айтымдарды камтып, алардын бирден төрткө чейин жери бош калтырылышы мүмкүн.Айтымдын төмөн жагына жооптун (А) дан (Г)га чейинки төрт вариант берилет. Жооптор бош калтырылып кеткен жерлерге коюу үчүн сунушталган сөздөрдөн турат.</p>
+    
+    <p class="step-text">Бул кыстырылуучу сөздөр аларды сүйлөмдү толуктоодо кандай тартипте колдонуу зарыл болсо, дал ошондой ыраатта берилет. Жооптордун бардык варианттары маанисы жагынан бири-бирине жакын болуп, алардын ичинен эң туура болуп эсептелген <mark>биөөнү</mark> тандоо керек. </p>
+    <p class="summary-text">Туура жоопту катары мене кеткен бир гана кыстырма удаалаштыгынан табуу зарыл.<p class="intro-text">Туура жооп иретинде ар башка катарлардан ар кайсы сөздөрдү тандап алууга болбойт</p></p>
+    
+    
+
+    <!-- Инструкция и кнопка для начала теста -->
+    <section id="intro">
+        <h3>Пройди тест на аналогии</h3>
+        <p>Нажмите кнопку ниже, чтобы начать тест. У вас будет 10 вопросов.</p>
+        <button id="startTestBtn">Пройти тест</button>
+        
+    </section>
+<!-- Форма для теста (по умолчанию скрыта) -->
+<section id="testSection" style="display: none;">
+    <!-- Таймер -->
+    <p id="timer">Оставшееся время: 30:00</p>
+
+    <div id="questionSection"></div>
+    
+    <!-- Кнопка для перехода к следующему вопросу -->
+    <button id="nextQuestionBtn" style="display: none;">Следующий вопрос</button>
+    
+    <!-- Кнопка для завершения теста -->
+    <button id="finishTestBtn" style="display: none;">Завершить тест</button>
+</section>
+
+<!-- Результаты -->
+<section id="resultsSection" style="display: none;">
+    <h3>Результаты теста</h3>
+    <div id="resultsList"></div>  <!-- Этот элемент будет заполняться результатами -->
+    <button id="restartTestBtn">Пройти тест заново</button>
+</section>
+
+    <footer>
+        <p>Учебный сайт © 2024. Все права защищены.</p>
+    </footer>
+
+    <script src="script_suyl.js"></script>
+
+
+
+    
+
+</body>
+</html>
+
